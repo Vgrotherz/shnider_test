@@ -1,0 +1,335 @@
+.collection-title {
+    text-align: initial;
+    margin: 0;
+    max-width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.collection-title {
+    text-align: initial;
+    margin: 0;
+    /* max-width: 80%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  } .collection-title_text{
+    font-weight: initial;
+  }
+
+  .collection-title_text_block{
+    display: flex;
+  }
+
+  .top-filter {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .top-filter a {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+  }
+
+  .top-filter a:active{
+    background-color: #ff8139;
+    color: white;
+  }
+
+
+  .products-count-text_test{
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+    line-height: initial;
+  }
+
+  .products-count-text_number {
+    font-size: large;
+    opacity: 0.6;
+  }
+
+  .products-count-text_button{
+    font-size: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #ff8139;
+  }
+
+  .nav-mk__standart-grey {
+    background-color: rgb(244, 242, 241);
+  }
+
+  .fl-ttu {
+    font-size: 30px;
+  	display: inline-block;
+  }
+
+  .aside__consult {
+    padding: 0;
+    box-sizing: unset;
+    -webkit-box-shadow: unset;
+  }
+
+  .sort_form {
+    align-items: center;
+  }
+
+  .sort_block {
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .product-filter {
+    background: initial;
+    align-items: center;
+    padding: 0;
+  }
+
+  .category-info {
+    border: none;
+    padding: 0;
+  }
+
+  .filter__active {
+    margin: 0;
+  }
+
+  .standart_block_oval {
+    display: flex;
+    /* margin-right: 24px; */
+    padding: 8px 0;
+    /* display: inline-block; */
+    border-radius: 23px;
+    text-decoration: none;
+    height: unset;
+    align-items: center;
+    /* line-height: unset; */
+  }
+
+  .filter__title {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .aside {
+    padding: 0;
+  }
+
+  .sort {
+    margin-right: 12px;
+  }
+  
+  .filter__active {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .filter__active-item:after {
+    position: relative;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filter__active-item {
+    padding: 0;
+    align-items: center;
+  }
+
+  .filter__active-title {
+    font-size: 14px;
+    padding: 0 8px 0 16px;
+  }
+
+  .filter__reset_new {
+    position: relative;
+    text-decoration: none;
+    color: initial;
+    font-size: 14px;
+    padding: 0 16px;
+    /* background-color: rgb(244, 242, 241); */
+  }
+
+  .filter_reset {
+    background-color: rgb(244, 242, 241);
+  }
+
+  .top-filter .nav-mk__standart-link {
+    padding: 8px 16px;
+  }
+
+  .product-filter .limit:after, .product-filter .sort:after {
+    top: 12px;
+  }
+
+  .product-filter .sort:after {
+    width: 8px;
+    height: 8px;
+  }
+
+  .product-filter .sort select {
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    width: 172px;
+    height: 32px;
+    /* padding: unset; */
+    padding-left: 30px;
+  }
+
+  .product-filter .sort {
+    font-weight: 400;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+  }
+
+  .swap_vert {
+    position: absolute;
+    margin: 0 4px 0 12px;
+  }
+
+  .whatsapp-fix {
+    padding: 6px 24px 6px 10px;
+    gap: 8px;
+    border-radius: 24px 32px 0px 0px;
+    position: initial;
+  }
+
+  .whatsapp_one {
+    display: flex;
+    width: 16.33px;
+    height: 16.33px;
+    border-radius: 10px;
+    font-size: 13.17px;
+    position: absolute;
+    background: red;
+    bottom: 11px;
+    top: -8px;
+    left: 508px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .connect_block {
+    position: fixed;
+    display: flex;
+    z-index: 1001;
+    bottom: 0px;
+    gap: 89px;
+  }
+
+  .connect_phone {
+    background: #0698EC;
+    width: 392px;
+    height: 40px;
+    padding: 6px 24px 6px 10px;
+    gap: 8px;
+  }
+
+  .phone_frame {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: #068DDB;
+    border: 3px solid #058AD6;
+    border-radius: 20px;
+    background: #d9d9d90d;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #phone_img, #email_img {
+    margin: 0;
+  }
+
+  #phone_img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 0.5px;
+  }
+
+  .connect_email {
+    background: #4F9652;
+    padding: 6px 24px 6px 10px;
+    gap: 8px;
+    border-radius: 24px 32px 0px 0px;
+  }
+
+
+  .email_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+  }
+
+  .email_block_frame {
+    background: #3E7540;
+    width: 28px;
+    height: 28px;
+    padding: 4px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 36px;
+  }
+
+  @media only screen and (max-width:1200px) {
+    .connect_block {
+      gap: 38px;
+      /* max-width: 95%; */
+    }
+
+    .whatsapp_one {
+      left: 456px;
+    } 
+
+    .whats_app_mob { 
+      width: 230px;
+    }
+    
+  }
+
+  @media only screen and (max-width:1088px) and (min-width:1199px) {
+    .whatsapp-fix {
+      width: 230px;
+    }
+  }
+
+  @media only screen and (max-width:991px) {
+    .whatsapp-fix {
+      background-color: #01652e00;
+    }
+
+    .whats_img {
+      display: none;
+    }
+    
+    .phone_frame {
+      background: #058ad6;
+      position: relative;
+      width: 45px;
+      height: 45px;
+      border-radius: 30px;
+      bottom: -6px;
+    }
+
+    .email_frame {
+      background: #3e7540;
+      position: relative;
+      width: 45px;
+      height: 45px;
+      border-radius: 30px;
+      top: -12px;
+    }
+
+    #email_img, #phone_img {
+      display: block;
+      width: 25px;
+      height: 20px;
+    }
+
+  }
