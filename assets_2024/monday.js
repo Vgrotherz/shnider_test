@@ -1,6 +1,6 @@
 const getNearestMonday = (date) => {
     const day = date.getDay();
-    const diff = 7 - day + (day === 0 ? -6 : 1); 
+    const diff = 8 - day + (day === 0 ? -6 : 1); 
     return new Date(date.setDate(date.getDate() + diff));
 }
 
